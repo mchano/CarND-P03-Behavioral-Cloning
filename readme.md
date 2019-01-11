@@ -3,10 +3,7 @@
 
 by Mas Chano (Feb 2017 Cohort)
 
-4/15/2017
----
-
-## Project Information
+### Project Information
 This repository contains my implementation of the Behavioral Cloning project for the Udacity Self-Driving Car Engineer Nanodegree (original Udacity project repo can be found [here](https://github.com/udacity/CarND-Behavioral-Cloning-P3)). 
 
 
@@ -41,15 +38,17 @@ This repository contains my implementation of the Behavioral Cloning project for
 
 The following environment was used for the project.
 
-* PC
+PC
  * Intel Core i5-4670K
  * Zotac GeForce 1060 GTX AMP! Edition 6GB (1280 CUDA Cores)
  * Ubuntu 16.04 LTS
-* Drivers
+
+Drivers
  * CUDA 8.0
  * cuDNN 5.1
  * NVIDIA 375.39
-* Python 3.5.1
+
+Python 3.5.1
  * TensorFlow 1.0.1
  * Keras 1.2.1
 
@@ -195,7 +194,7 @@ The `drive.py` file feeds center camera images from the Simulation program to th
 
 In the end, the model successfully navigated track 1 safely. This can be observed in the MP4 file submitted with this project.
 
-### Track 2 Autonomous Mode
+### Track 2 Autonomous Mode (Optional)
 
 Unfortunately, in its current state, the model failed to navigate track 2 and hence meant the model failed to generalize beyond track 1. The model never saw track 2 during training.
 
